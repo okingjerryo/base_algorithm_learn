@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BC32A7D21E695A7300532884 /* 2018.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BC32A7D11E695A7300532884 /* 2018.cpp */; };
+		BC3198DF1E7BDAF5006572C1 /* ifstream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BC3198DD1E7BDAF5006572C1 /* ifstream.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		BC32A7D11E695A7300532884 /* 2018.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 2018.cpp; sourceTree = "<group>"; };
+		BC3198DD1E7BDAF5006572C1 /* ifstream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ifstream.cpp; sourceTree = "<group>"; };
 		BC91332A1E446FD600B5B2E3 /* OnlieJudgeHunter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OnlieJudgeHunter; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -57,7 +57,7 @@
 		BC91332C1E446FD600B5B2E3 /* OnlieJudgeHunter */ = {
 			isa = PBXGroup;
 			children = (
-				BC32A7D11E695A7300532884 /* 2018.cpp */,
+				BC3198DD1E7BDAF5006572C1 /* ifstream.cpp */,
 			);
 			path = OnlieJudgeHunter;
 			sourceTree = "<group>";
@@ -119,7 +119,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC32A7D21E695A7300532884 /* 2018.cpp in Sources */,
+				BC3198DF1E7BDAF5006572C1 /* ifstream.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
