@@ -21,6 +21,9 @@ int main1(){
     long int input = 0;
     cin>>input;
     while (input){
+        
+        
+        
         bool flag = true;
         //范围是从1~√（input)区间只要能除尽就是素数 否则就是合数
         for (int i=2;i<=sqrt(input);i++){
@@ -29,9 +32,11 @@ int main1(){
                 break;
             }
         }
- 
         if (flag) cout<<"yes"<<endl;
         else cout<<"no"<<endl;
+        
+        
+        
         //吸收下一个输入
         input = 0;
         cin>>input;
@@ -218,12 +223,67 @@ int main4(){
     }
     return 0;
 }
+
+void wuxian(){
+    int input = 0,input2 = 0;
+    cin>>input>>input2;
+    while(input){
+        //chuli
+        
+        //input next
+        input = 0,input2 = 0;
+        cin>>input>>input2;
+    }
+    
+    double baoliuxiaoshu = 0;
+    cout<<fixed<<showpoint<<setprecision(2)<<baoliuxiaoshu<<endl;
+    
+}
+
+
+
+int main21(){
+    
+    int num;
+    cin>>num;
+    
+    int pointList[num][2];
+    for (int i=0;i<num;i++){
+        cin>>pointList[i][0]>>pointList[i][1];
+    }
+    int min = 0x8fff;
+    for(int i=0;i<num;i++){
+        for (int j=i+1;j<num;j++){
+            int thisDis =
+            sqrt(pow(pointList[i][0]-pointList[j][0],2) + pow(pointList[i][0]-pointList[i][1], 2));
+            if (thisDis<min)
+                min = thisDis;
+        }
+    }
+    cout<<min<<endl;
+    
+    return 0;
+}
 int main(){
     
-    main1();
-    main2();
+    /*main1();
+     main2();
     main3();
     main4();
+    */
+    //wuxian();
+    //main21();
+    // int <->string
+    
+    string input;
+    cin>>input;
+    
+    cout<<input[2]<<endl;
+    double output;
+    stringstream ss;
+    
+    ss<<input;
+    ss>>output;
     
     return 0;
 }
